@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho</title>
+    <link rel="stylesheet" href="/kreff-studio/carrinho.css">
+    <link rel="stylesheet" href="/kreff-studio/styles.css">
+    
+</head>
+<body>
+
+    <nav class="main-nav-container">
+        <div class="left-nav-contents ">
+            <a href="/kreff-studio/index.html" class="top-nav-logo"></a>
+        </div>
+
+        <div class="right-nav-contents">
+            <ul>
+                <li>
+                    <a class="Inicio-2" href="/kreff-studio/index.html">Inicio</a>
+                </li>
+                <div class="menu-spacing"></div>
+                <li>
+                    <a class="Jogos" href="/kreff-studio/jogos.html">Jogos</a>
+                </li>
+                <div class="menu-spacing"></div>
+                <li>
+                    <a href="/kreff-studio/loja.html" class="Loja">Loja</a>
+                </li>
+                <div class="menu-spacing"></div>
+                <li>
+                    <button class="login">Login</button>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+    </nav>
+
+
+
+
+
+    <section id="main">
+        <div class="text-carrinho-container" id="text-carrinho-container">
+            <h1>Carrinho</h1>
+            <div class="div-lipar-carrinho">
+                <button id="btn-limpar-carrinho">Limpar Carrinho</button>
+                <a href="/kreff-studio/loja.html">Continuar Comprando</a>
+            </div>
+            
+        </div>
+        <div class="principal-container" id="principal-container">
+            <div class="itens-add-carrinho" id="itens-add-carrinho">
+                <!-- <div class="linha-horizontal-itens-add-carrinho" id="linha-horizontal-itens-add-carrinho"></div> -->
+                <!-- <div class="pedido-add-carrinho" id="pedido-add-carrinho">
+                    <div class="iten-resumo-information" id="iten-resumo-information">
+                        <div class="image-iten-carinho" id="image-iten-carinho"></div>
+                        <div class="information-iten-resumo">
+                            <h2 id="titulo-do-produto-a">${produto.nome}</h2>
+                            <p>INformcoes gerais do produto</p>
+                            <div class="container-quantidade" id="container-quantidade">
+                                <p>quantidade: <p id="quantidade">$`{produto.quantidade}` </p></p>
+                            </div>
+                            <div class="remove-or-buyaffter" id="remove-or-buyaffter">
+                                <button class="remove-itens" id="remove-itens">Remover</button>
+                                <button class="buy-affter"id="buy-affter">Salvar pra mais tarde</button>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                    <div id="preco-information" class="preco-information">R$ 00,00</div>
+                </div> -->
+            </div>
+            <div class="resumo-container" id="resumo-container">
+                <div id="resumo-pedido" class="resumo-pedido">
+                    <h4>Resumo do Pedido</h4>
+
+                    <div class="renumo-valor" id="renumo-valor">
+                    <p class="itens-total" id="itens-total">Itens: <p class="itens-total-p" id="itens-total-p"></p></p>
+                    <p class="valor-total" id="valor-total"><p class="tt-total">R$</p></p>
+                    </div>
+
+                    <div class="linha-divisorioa" id="linha-divisorioa"></div>
+
+                    <button class="finalizar-compra" id="finalizar-compra">Finalizar Compra</button>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="/kreff-studio/main-script.js"></script>
+    <script src="/kreff-studio/carinho.js"></script>
+    <script src="/kreff-studio/loja.js"></script>
+</body>
+</html>

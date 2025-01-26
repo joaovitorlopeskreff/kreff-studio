@@ -1,0 +1,198 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: o;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+#main {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+    
+}
+.text-carrinho-container {
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: space-between;
+    height: 5vh;
+    width: 90%;
+    color: rgb(0, 0, 0);
+    padding-bottom: 1rem;
+}
+.div-lipar-carrinho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 33.2rem;
+    background-color:rgb(255, 255, 255);
+
+}
+#btn-limpar-carrinho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    color: rgb(255, 0, 0);
+    border: none;
+    border-bottom: red solid 0.1rem;
+    height: 2rem;
+    width: 7.1rem;
+    cursor: pointer; 
+    border-radius: 0.1rem;
+    font-size: 1rem;
+    font-family: var(--fonte-principal);
+
+    &:hover {
+        box-shadow: 0px 2px 0px 0px rgba(255, 0, 0, 0.95);
+        
+
+    }
+
+}
+.principal-container {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    
+}
+.itens-add-carrinho {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    background-color: rgba(255, 255, 255, 0.549);
+}
+.linha-horizontal-itens-add-carrinho {
+    display: flex;
+    width: 95%;
+    height: 0.1rem;
+    background-color: rgba(0, 0, 0, 0.549);
+}
+.pedido-add-carrinho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 13rem;
+    width: 95%;
+    background-color: rgb(255, 255, 255);
+    
+}
+.iten-resumo-information {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.549);
+
+}
+.image-iten-carinho {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(45, 42, 42);
+    width: 50%;
+    height: 100%;
+    background-image: url(/kreff-studio/img/featured\ \(2\).avif);
+
+    
+}
+.container-quantidade {
+    display: flex;
+    flex-direction: row;
+}
+.information-iten-resumo{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 65%;
+    background-color: rgb(255, 255, 255);
+    padding-left: 1rem;
+}
+.preco-information {
+    margin: 1rem 0.1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.resumo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 15rem;
+    width: 19rem;
+    background-color: #ebe6e685;
+    border-radius: 0.1rem;
+}
+.resumo-pedido {
+    display: flex;
+    flex-direction: column;
+    justify-items: top;
+    height: 90%;
+    width: 90%;
+}
+.renumo-valor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 2rem;
+    width: 100%;
+    height: 40%;
+}
+.linha-divisorioa {
+    display: flex;
+    width: 90%;
+    align-items: justify;
+    height: 0.1rem;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 2rem;
+    margin-left: 0.6rem;
+}
+.finalizar-compra {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border: none;
+    height: 2rem;
+    width: 90%;
+    margin-left: 0.6rem;
+    cursor: pointer; 
+    border-radius: 0.1rem;
+    font-size: 1rem;
+    font-family: var(--fonte-principal);
+
+    &:hover {
+        background-color: rgb(0, 0, 0);
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.95);
+    }
+}
